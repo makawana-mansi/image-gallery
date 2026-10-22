@@ -29,7 +29,7 @@ const App = () => {
   return (
     <div className='overflow-auto bg-black text-white h-screen p-4'>
       {/* <h1 className='bg-red-950 text-white text-7xl fixed'>{index}</h1> */}
-      <div className='flex h[80%] flex-wrap gap-4 px-27 py-2'>
+      <div className='flex flex-wrap justify-center gap-4 px-3 sm:px-5 md:px-8 lg:pl-30 lg:pr-5 py-2'>
         {dataPrint}
       </div>
       <div className='flex justify-center gap-4 items-center p-1'>
